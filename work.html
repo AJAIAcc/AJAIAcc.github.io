@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI front desk for small businesses · Ajaydas Devadas</title>
+<meta name="description" content="An AI receptionist on Telegram that answers your customers from your own information, takes bookings you confirm with one tap, and hands chats to you when a person should take over.">
+<link rel="icon" href="owl.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .steps { counter-reset: step; list-style: none; padding-left: 0; }
+  .steps li { counter-increment: step; padding-left: 38px; position: relative; margin: 12px 0; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 2px; width: 26px; height: 26px;
+    border-radius: 50%; border: 1px solid var(--gold); color: var(--gold); font-size: 14px; line-height: 24px;
+    text-align: center; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .prices { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 18px 0; }
+  .prices .card { margin: 0; }
+  .amount { font-size: 26px; color: var(--gold); }
+  .amount small { font-size: 15px; color: var(--muted); }
+  .button { display: inline-block; margin-top: 6px; padding: 10px 18px; border: 1px solid var(--gold); border-radius: 10px;
+    text-decoration: none; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; }
+  .button:hover { background: var(--gold); color: var(--bg); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="owl.png" alt="">
+    <div><div class="name">Ajaydas Devadas</div><div class="tag">AI assistants for small businesses · Singapore</div></div>
+  </header>
+
+  <h1>An AI front desk for your business</h1>
+  <p>Your customers message your business on Telegram, at any hour. The assistant answers them from your own
+  information, takes booking requests for you to confirm with one tap, and hands the chat to you whenever a person
+  should take over.</p>
+  <p><a class="button" href="mailto:ajaydasdevadas2@gmail.com?subject=Free%20demo%20of%20the%20AI%20front%20desk">Get a free demo with your own information</a></p>
+
+  <div class="card">
+    <h2 style="margin-top:0">What it does</h2>
+    <ul>
+      <li><b>Answers questions</b> about your services, prices, hours and policies, in your customer's language. It only
+      says what you've told it: if it doesn't know, it asks you instead of guessing.</li>
+      <li><b>Takes bookings.</b> Requests arrive in your Telegram with Confirm and Decline buttons, and the customer is told
+      either way. It never confirms anything by itself.</li>
+      <li><b>Hands over to you</b> when a customer asks for a person, complains, wants a refund, or needs anything delicate.
+      You reply straight from your phone.</li>
+      <li><b>Keeps a record</b> of every booking request and enquiry, which you can download as a spreadsheet.</li>
+      <li><b>Stays within budget</b>, with a daily spending limit and protection against spam.</li>
+    </ul>
+  </div>
+
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li>You tell me about your business: a short questionnaire covering services, prices, hours, booking rules and what
+    should always come to you.</li>
+    <li>I set it up, and we test it together on your phone until the answers are right. Usually within a week.</li>
+    <li>It runs. You tap Confirm on bookings and step in whenever you like. When your prices or hours change, send me
+    the new details.</li>
+  </ol>
+
+  <h2>Pricing</h2>
+  <div class="prices">
+    <div class="card">
+      <div class="amount">S$350</div>
+      <p class="muted">Setup: answers customers and passes enquiries to you.</p>
+    </div>
+    <div class="card">
+      <div class="amount">S$500</div>
+      <p class="muted">Setup: adds booking requests and hand-over to you or your staff.</p>
+    </div>
+    <div class="card">
+      <div class="amount">S$79<small> / month</small></div>
+      <p class="muted">Hosting, monitoring, updates to your information and the AI usage (up to a daily limit).
+      Cancel any month.</p>
+    </div>
+  </div>
+  <p class="muted">Prefer WhatsApp? Ask me. It needs a WhatsApp Business account, which I'll help you set up.</p>
+
+  <h2>Your customers' data</h2>
+  <p>Conversations are kept on a private server in Singapore and used only to run your assistant. Chat history is
+  deleted automatically after 180 days. Booking requests stay available to you as your records. The AI is Anthropic's
+  Claude, used through its business API.</p>
+
+  <h2>Who builds it</h2>
+  <p>I'm Ajaydas. I built <a href="index.html">Minerva</a>, my own always-on assistant. It sorts my email and drafts
+  replies for my approval, watches my calendar and travel, sets alarms on my phone, and holds live voice conversations
+  I can interrupt. It runs on its own server and I built an Android app for it. Your front desk is built the same way:
+  it says only what it knows, and it asks a person before doing anything that matters.</p>
+
+  <h2>Contact</h2>
+  <p>Tell me what your business does and I'll set up a free demo with your own information, so you can try it on your
+  phone before deciding.</p>
+  <p><a href="mailto:ajaydasdevadas2@gmail.com">ajaydasdevadas2@gmail.com</a></p>
+
+  <nav>
+    <a href="work.html">AI front desk</a>
+    <a href="index.html">Minerva</a>
+  </nav>
+</div>
+</body>
+</html>
